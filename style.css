@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Parisienne&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.container {
+    width:100vw;
+    height:100vh;
+    background-color: rgb(245, 245, 245);
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+    }
+    
+    h1 {
+        font-size:42px;
+        font-family: 'Parisienne', cursive;
+        text-align: center;
+        padding:25px;
+        color:rgb(219,168,0)
+    }
+    
+    h2 {
+        position: relative;
+        top:35px;
+        font-size:24px;
+        font-family: 'Parisienne', cursive;
+        color:white;
+        letter-spacing: 2px;
+        text-align: center;
+        padding:10px;
+        width:auto;
+        background-color:rgba(219,168,0, 0.8);
+        transform: rotate(-5deg);
+    }
+    
+    p {
+        width:95%;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        padding: 30px 20px 20px 20px;
+        color:#666666;
+    }
+    
+    
+    .cocktail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .image {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width:65%;
+        border-radius: 10px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 320px) {
+
+    .container {
+        width: 100vw;
+        height:100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size:21px;
+    }
+    
+}
